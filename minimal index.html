@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Immunome AI Biotechnologies LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #050816;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      padding: 3rem 1.5rem 1rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 500;
+      opacity: 0.9;
+      margin-top: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem 3rem;
+    }
+    section {
+      margin-bottom: 1.5rem;
+      padding: 1.25rem 1rem;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    h3 {
+      margin-top: 0;
+      font-size: 1.05rem;
+    }
+    a {
+      color: #7dd3fc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin: 0.25rem 0 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 1.5rem 2rem;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 0.75rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.15);
+      margin-right: 0.35rem;
+      margin-top: 0.25rem;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Immunome AI Biotechnologies LLC</h1>
+    <h2>Founder & Principal Architect: Rafid Quadir</h2>
+  </header>
+
+  <main>
+    <section>
+      <h3>Company Overview</h3>
+      <p>
+        Immunome AI Biotechnologies LLC is an early-stage company focused on 
+        <strong>multi-omics, cardiovascular immunology, and endotype discovery</strong>.
+        We build Cytoseeker, a platform that integrates biobank-scale data with
+        single-cell and proteomic measurements to identify disease endotypes,
+        biomarkers, and therapeutic targets.
+      </p>
+    </section>
+
+    <section>
+      <h3>Current Focus Areas</h3>
+      <ul>
+        <li>Coronary artery disease and myocardial infarction risk stratification.</li>
+        <li>Integration of clinical, genetic, proteomic, and single-cell datasets.</li>
+        <li>Endotype discovery and minimal marker panels for translational PoC.</li>
+      </ul>
+      <div>
+        <span class="tag">Multi-omics</span>
+        <span class="tag">Cardiovascular</span>
+        <span class="tag">Biobanks</span>
+        <span class="tag">Endotypes</span>
+        <span class="tag">AI / GNN / Transformers</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Use of UK Biobank Data</h3>
+      <p>
+        As part of our early research program, we plan to use UK Biobank data to:
+      </p>
+      <ul>
+        <li>Construct UKBB-style cardiovascular cohorts with standard CVD outcomes.</li>
+        <li>Develop and evaluate endotype-driven risk models and minimal marker panels.</li>
+        <li>Benchmark Cytoseeker against established clinical baselines and polygenic risk scores.</li>
+      </ul>
+      <p>
+        Analyses will be conducted strictly within UK Biobank’s governance framework and
+        used for methodological research and prototyping, not for direct clinical decision-making.
+      </p>
+    </section>
+
+    <section>
+      <h3>Contact</h3>
+      <p>
+        For collaborations or data access enquiries, please contact:<br />
+        <strong>Email:</strong> <a href="mailto:info@immuneome-ai.com">info@immuneome-ai.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Immunome AI Biotechnologies LLC. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
